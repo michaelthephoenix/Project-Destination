@@ -16,10 +16,14 @@ the website is built using bootstrap and js utilising APIs such as
   from https://developers.arcgis.com/javascript/latest/
 </ul>
 
-to access the user account
-email: destination@gmail.com
+to access the user account </br>
+email: destination@gmail.com </br>
 password: user
 
-to access the admin account
-email: admin
+to access the admin account </br>
+email: admin </br>
 password: admin
+
+paypal test user account </br>
+email: sb-abmgu5156633@personal.example.com</br>
+password: U!.jL"5%

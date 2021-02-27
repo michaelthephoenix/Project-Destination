@@ -102,50 +102,9 @@
                         <a class="nav-link" href="#" title="Dashboard"><i class="fas fa-cube"></i> Dashboard <i
                                 class="fas fa-cube shortmenu animate"></i></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" title=""><i
-                                class="fas fa-bus"></i> Trips <i class="fas fa-bus shortmenu animate"></i></a>
-                        <div class="dropdown-menu" role="menu">
-                            <a class="dropdown-item" class="btn btn-primary" data-toggle="modal"
-                                data-target="#exampleModalCenter" href="#">Create new trip</a>
-                        </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">Create A New Trip</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form method="POST" action="/post-feedback">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Title</label>
-                                                <input type="text" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp" placeholder="Enter trip name">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Bus Fare</label>
-                                                <input type="number" class="form-control" id="busfare"
-                                                    aria-describedby="emailHelp" placeholder="Enter amount">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Time of Departure and Arrival</label>
-                                                <input type="text" class="form-control" id="exampleInputEmail1"
-                                                    aria-describedby="emailHelp" placeholder="Enter trip name">
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Cancel</button>
-                                        <button type="submit" class="btn btn-primary">Add Trip</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#trip-form-crud" title="Dashboard"><i class="fas fa-bus"></i> Add Trip <i
+                                class="fas fa-bus shortmenu animate"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" title=""><i class="fas fa-truck"></i> Deliveries <i
@@ -272,7 +231,7 @@
     </div>
 
     </div>
-    <div class="card " style="margin: 10%;">
+    <div class="card" id="trip-form-crud" style="margin: 10%;">
         <table>
             <tr>
                 <td>

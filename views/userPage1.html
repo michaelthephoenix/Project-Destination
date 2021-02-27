@@ -361,11 +361,11 @@
         color: 'blue',
         shape: 'pill'
       },
-      payTrip: function (data, actions) {
+      createOrder: function (data, actions) {
         return actions.order.create({
           purchase_units: [{
             amount: {
-              value: '88.00'
+              value: '150.00'
             }
           }]
         });
